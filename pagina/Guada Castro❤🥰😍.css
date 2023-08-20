@@ -1,0 +1,40 @@
+* { 
+background: black;
+}
+#text{	
+ 	color:white;
+ } 
+ #titulo{
+ 	color: red;
+ 	font-size: 20px;
+ }
+#text{
+  font-size: 15px;
+}
+p{
+font-family: Cookie;
+}
+p:hover{
+color:goldenrod;
+}
+/* Estilos para pantallas grandes */
+/* Por ejemplo, para computadoras de escritorio */
+body {
+  font-size: 16px;
+}
+
+/* Estilos para pantallas medianas */
+/* Por ejemplo, para tabletas en orientación vertical */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+/* Por ejemplo, para teléfonos celulares en orientación vertical */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
